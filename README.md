@@ -3,13 +3,13 @@
 ## The initial state of the application was forked from a given repository with Wrangler and Cloudflare Workers.
 
 ## Tech Stack used:
-Cloudflare (Deployment)
-Wrangler (CLI)
-Hono (Backend framework)
-Drizzle (ORM)
-Axios (handle http requests)
+#### Cloudflare (Deployment)
+#### Wrangler (CLI)
+#### Hono (Backend framework)
+#### Drizzle (ORM)
+#### Axios (handle http requests)
 
-##Endpoints implemented:
+## Endpoints implemented:
 #### `GET /api/products` - retrieve products from external url and save each one with the necessary fields in the database and return a message that says the products are already recorded/n
 #### `POST /api/products` - retrieve products from external url and save each one with the necessary fields in the database and return a restructured response of the products recorded/n
 #### `DELETE /api/products/:id` - delete products that corresponds to the id in the path parameters/n
